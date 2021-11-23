@@ -24,5 +24,5 @@ new_dict_1 = {el: random.randint(1, 100) for el in list1}
 # 1. interate of "new_dict_1"
 # 2. Condition: if value is over 50 set to new dictionary
 
-pass_students = {key: value for (key, value) in new_dict_1.items() if value > 50}
+pass_students = {student: value for (student, value) in new_dict_1.items() if value > 50}
 print(pass_students)  # OUTPUT >> {'Kyle': 62, 'Elias': 66, 'Larson': 76, 'Price': 59}
